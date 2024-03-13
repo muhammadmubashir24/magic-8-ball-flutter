@@ -34,6 +34,7 @@ class _BallPageState extends State<BallPage> {
   void changeBallFace() {
     setState(() {
       ballNumber = Random().nextInt(5) + 1;
+      // print('I got clicked = $ballNumber');
     });
   }
 
